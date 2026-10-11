@@ -1,0 +1,179 @@
+2026-10-10 16:40:17,052 [INFO] __main__: Programa iniciado
+2026-10-10 16:40:17,053 [INFO] controlador: Controlador iniciado
+2026-10-10 16:40:17,054 [INFO] controlador: Creado heroe ID-6721 (puntuación 27.00)
+2026-10-10 16:40:17,054 [INFO] controlador: Creado heroe ID-6495 (puntuación 28.00)
+2026-10-10 16:40:17,054 [INFO] controlador: Creado heroe ID-9024 (puntuación 41.20)
+2026-10-10 16:40:17,054 [INFO] controlador: Creado heroe ID-0422 (puntuación 28.80)
+2026-10-10 16:40:17,054 [INFO] controlador: Creado heroe ID-8892 (puntuación 50.20)
+2026-10-10 16:40:17,054 [INFO] controlador: Creado villano ID-2840 (puntuación 35.25)
+2026-10-10 16:40:17,055 [INFO] controlador: Creado villano ID-5806 (puntuación 51.75)
+2026-10-10 16:40:17,055 [INFO] controlador: Creado heroe ID-6341 (puntuación 57.00)
+2026-10-10 16:40:17,055 [INFO] controlador: Creado villano ID-6920 (puntuación 53.25)
+2026-10-10 16:40:17,055 [INFO] controlador: Creado heroe ID-2916 (puntuación 54.80)
+2026-10-10 16:40:26,605 [INFO] controlador: Creado heroe ID-7400 (puntuación 46.00)
+2026-10-10 16:40:28,152 [INFO] controlador: Creado villano ID-9214 (puntuación 64.25)
+2026-10-10 16:40:29,353 [INFO] controlador: Creado heroe ID-2649 (puntuación 48.80)
+2026-10-10 16:40:30,083 [INFO] controlador: Creado villano ID-5644 (puntuación 44.50)
+2026-10-10 16:40:32,588 [ERROR] __main__: Error inesperado
+Traceback (most recent call last):
+  File "C:\Users\franp\Documents\HeroesVillanos\main.py", line 19, in main
+    menu.ejecutar(controlador)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\franp\Documents\HeroesVillanos\menu.py", line 51, in ejecutar
+    mostrar_personas(controlador.listar())
+                     ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\franp\Documents\HeroesVillanos\controlador.py", line 52, in listar
+    return list(self.personajes.values())
+                ^^^^^^^^^^^^^^^
+AttributeError: 'Controlador' object has no attribute 'personajes'. Did you mean: 'personas'?
+2026-10-10 16:40:32,590 [INFO] __main__: Programa finalizado
+2026-10-10 16:40:59,356 [INFO] __main__: Programa iniciado
+2026-10-10 16:40:59,356 [INFO] controlador: Controlador iniciado
+2026-10-10 16:40:59,356 [INFO] controlador: Creado heroe ID-0823 (puntuación 35.60)
+2026-10-10 16:40:59,356 [INFO] controlador: Creado heroe ID-8196 (puntuación 27.00)
+2026-10-10 16:40:59,356 [INFO] controlador: Creado heroe ID-5162 (puntuación 51.60)
+2026-10-10 16:40:59,356 [INFO] controlador: Creado heroe ID-9039 (puntuación 45.40)
+2026-10-10 16:40:59,356 [INFO] controlador: Creado villano ID-9694 (puntuación 44.75)
+2026-10-10 16:40:59,357 [INFO] controlador: Creado heroe ID-5149 (puntuación 38.80)
+2026-10-10 16:40:59,357 [INFO] controlador: Creado heroe ID-1246 (puntuación 84.40)
+2026-10-10 16:40:59,357 [INFO] controlador: Creado villano ID-5196 (puntuación 45.75)
+2026-10-10 16:40:59,357 [INFO] controlador: Creado heroe ID-1860 (puntuación 42.40)
+2026-10-10 16:40:59,357 [INFO] controlador: Creado heroe ID-8592 (puntuación 39.00)
+2026-10-10 16:41:15,814 [ERROR] __main__: Error inesperado
+Traceback (most recent call last):
+  File "C:\Users\franp\Documents\HeroesVillanos\main.py", line 19, in main
+    menu.ejecutar(controlador)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\franp\Documents\HeroesVillanos\menu.py", line 60, in ejecutar
+    mostrar_emparejamiento(controlador.emparejar())
+                           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\franp\Documents\HeroesVillanos\controlador.py", line 91, in emparejar
+    if diferencia <= UMBRAL_EQUILIBRIO:
+                     ^^^^^^^^^^^^^^^^^
+NameError: name 'UMBRAL_EQUILIBRIO' is not defined
+2026-10-10 16:41:15,818 [INFO] __main__: Programa finalizado
+2026-10-10 16:42:13,693 [INFO] __main__: Programa iniciado
+2026-10-10 16:42:13,693 [INFO] controlador: Controlador iniciado
+2026-10-10 16:42:13,694 [INFO] controlador: Creado heroe ID-8692 (puntuación 49.80)
+2026-10-10 16:42:13,694 [INFO] controlador: Creado heroe ID-3349 (puntuación 38.80)
+2026-10-10 16:42:13,694 [INFO] controlador: Creado heroe ID-4179 (puntuación 43.40)
+2026-10-10 16:42:13,694 [INFO] controlador: Creado heroe ID-5634 (puntuación 40.80)
+2026-10-10 16:42:13,694 [INFO] controlador: Creado heroe ID-1856 (puntuación 48.60)
+2026-10-10 16:42:13,694 [INFO] controlador: Creado villano ID-6212 (puntuación 52.25)
+2026-10-10 16:42:13,694 [INFO] controlador: Creado villano ID-0984 (puntuación 41.75)
+2026-10-10 16:42:13,694 [INFO] controlador: Creado villano ID-9819 (puntuación 42.00)
+2026-10-10 16:42:13,695 [INFO] controlador: Creado heroe ID-2906 (puntuación 41.80)
+2026-10-10 16:42:13,695 [INFO] controlador: Creado heroe ID-4654 (puntuación 57.40)
+2026-10-10 16:42:29,527 [INFO] controlador: Búsqueda: heroe con gitgod = 90
+2026-10-10 16:42:29,527 [INFO] controlador: Búsqueda terminada: 0 resultados
+2026-10-10 16:42:49,985 [INFO] controlador: Emparejamiento ID-2906 vs ID-0984: diferencia 0.05 -> equilibrado
+2026-10-10 16:43:05,447 [INFO] __main__: Programa finalizado
+2026-10-10 16:49:24,050 [INFO] __main__: Programa iniciado
+2026-10-10 16:49:24,051 [INFO] controlador: Controlador iniciado
+2026-10-10 16:49:24,051 [INFO] controlador: Creado villano ID-2758 (puntuación 42.25)
+2026-10-10 16:49:24,051 [INFO] controlador: Creado villano ID-1861 (puntuación 40.50)
+2026-10-10 16:49:24,051 [INFO] controlador: Creado villano ID-6206 (puntuación 28.00)
+2026-10-10 16:49:24,051 [INFO] controlador: Creado heroe ID-5373 (puntuación 45.80)
+2026-10-10 16:49:24,051 [INFO] controlador: Creado heroe ID-3569 (puntuación 57.80)
+2026-10-10 16:49:24,051 [INFO] controlador: Creado villano ID-5712 (puntuación 35.50)
+2026-10-10 16:49:24,051 [INFO] controlador: Creado villano ID-5364 (puntuación 43.50)
+2026-10-10 16:49:24,052 [INFO] controlador: Creado heroe ID-3954 (puntuación 83.60)
+2026-10-10 16:49:24,052 [INFO] controlador: Creado heroe ID-0957 (puntuación 67.40)
+2026-10-10 16:49:24,052 [INFO] controlador: Creado heroe ID-4267 (puntuación 38.80)
+2026-10-10 16:49:26,661 [INFO] controlador: Creado heroe ID-1670 (puntuación 60.00)
+2026-10-10 16:51:16,816 [INFO] __main__: Programa finalizado
+2026-10-10 16:52:33,504 [INFO] __main__: Programa iniciado
+2026-10-10 16:52:33,504 [INFO] controlador: Controlador iniciado
+2026-10-10 16:52:33,504 [INFO] controlador: Creado villano ID-4432 (puntuación 44.75)
+2026-10-10 16:52:33,504 [INFO] controlador: Creado heroe ID-6302 (puntuación 57.80)
+2026-10-10 16:52:33,504 [INFO] controlador: Creado villano ID-4860 (puntuación 47.75)
+2026-10-10 16:52:33,505 [INFO] controlador: Creado heroe ID-6204 (puntuación 52.40)
+2026-10-10 16:52:33,505 [INFO] controlador: Creado villano ID-5782 (puntuación 60.00)
+2026-10-10 16:52:33,505 [INFO] controlador: Creado heroe ID-7217 (puntuación 73.20)
+2026-10-10 16:52:33,505 [INFO] controlador: Creado villano ID-0878 (puntuación 53.75)
+2026-10-10 16:52:33,505 [INFO] controlador: Creado villano ID-3578 (puntuación 54.50)
+2026-10-10 16:52:33,505 [INFO] controlador: Creado villano ID-2068 (puntuación 49.00)
+2026-10-10 16:52:33,505 [INFO] controlador: Creado heroe ID-2215 (puntuación 43.00)
+2026-10-10 16:52:57,464 [INFO] __main__: Programa finalizado
+2026-10-10 16:54:12,852 [INFO] __main__: Programa iniciado
+2026-10-10 16:54:12,852 [INFO] controlador: Controlador iniciado
+2026-10-10 16:54:12,852 [INFO] controlador: Creado villano ID-2550 (puntuación 57.25)
+2026-10-10 16:54:12,853 [INFO] controlador: Creado heroe ID-6497 (puntuación 43.40)
+2026-10-10 16:54:12,853 [INFO] controlador: Creado heroe ID-9015 (puntuación 46.40)
+2026-10-10 16:54:12,853 [INFO] controlador: Creado villano ID-7442 (puntuación 28.50)
+2026-10-10 16:54:12,853 [INFO] controlador: Creado villano ID-9097 (puntuación 62.75)
+2026-10-10 16:54:12,853 [INFO] controlador: Creado villano ID-0100 (puntuación 72.25)
+2026-10-10 16:54:12,853 [INFO] controlador: Creado villano ID-8867 (puntuación 31.25)
+2026-10-10 16:54:12,853 [INFO] controlador: Creado heroe ID-0630 (puntuación 38.00)
+2026-10-10 16:54:12,853 [INFO] controlador: Creado villano ID-0818 (puntuación 62.00)
+2026-10-10 16:54:12,854 [INFO] controlador: Creado villano ID-2809 (puntuación 30.25)
+2026-10-10 16:54:27,579 [INFO] controlador: Emparejamiento ID-6497 vs ID-9097: diferencia 19.35 -> alta desviación: el villano es mucho más poderoso
+2026-10-10 16:54:35,099 [INFO] controlador: Emparejamiento ID-0630 vs ID-8867: diferencia 6.75 -> equilibrado
+2026-10-10 16:54:38,078 [INFO] controlador: Emparejamiento ID-0630 vs ID-0818: diferencia 24.00 -> alta desviación: el villano es mucho más poderoso
+2026-10-10 16:55:17,548 [INFO] __main__: Programa finalizado
+2026-10-10 17:05:39,754 [INFO] __main__: Programa iniciado
+2026-10-10 17:05:39,755 [INFO] controlador: Controlador iniciado
+2026-10-10 17:05:39,755 [INFO] controlador: Creado villano ID-3731 (puntuación 55.50)
+2026-10-10 17:05:39,755 [INFO] controlador: Creado heroe ID-4540 (puntuación 67.40)
+2026-10-10 17:05:39,755 [INFO] controlador: Creado villano ID-5129 (puntuación 50.00)
+2026-10-10 17:05:39,755 [INFO] controlador: Creado villano ID-5795 (puntuación 41.00)
+2026-10-10 17:05:39,755 [INFO] controlador: Creado heroe ID-5226 (puntuación 43.00)
+2026-10-10 17:05:39,755 [INFO] controlador: Creado heroe ID-5900 (puntuación 61.20)
+2026-10-10 17:05:39,756 [INFO] controlador: Creado villano ID-4611 (puntuación 28.50)
+2026-10-10 17:05:39,756 [INFO] controlador: Creado villano ID-2838 (puntuación 58.75)
+2026-10-10 17:05:39,756 [INFO] controlador: Creado heroe ID-0235 (puntuación 53.20)
+2026-10-10 17:05:39,756 [INFO] controlador: Creado heroe ID-3533 (puntuación 48.80)
+2026-10-10 17:05:48,731 [INFO] controlador: Creado heroe ID-6356 (puntuación 33.60)
+2026-10-10 17:05:57,969 [INFO] controlador: Creado villano ID-7990 (puntuación 65.25)
+2026-10-10 17:06:29,585 [INFO] controlador: Búsqueda: villano con vilma = Vilma
+2026-10-10 17:06:29,585 [INFO] controlador: Búsqueda terminada: 0 resultados
+2026-10-10 17:06:41,673 [INFO] controlador: Búsqueda: villano con nombre = Vilma
+2026-10-10 17:06:41,673 [INFO] controlador: Búsqueda terminada: 1 resultados
+2026-10-10 17:07:08,077 [INFO] controlador: Búsqueda: villano con chatgepeteador > 50
+2026-10-10 17:07:08,077 [INFO] controlador: Búsqueda terminada: 4 resultados
+2026-10-10 17:07:20,792 [INFO] controlador: Emparejamiento ID-5226 vs ID-2838: diferencia 15.75 -> alta desviación: el villano es mucho más poderoso
+2026-10-10 17:07:26,089 [INFO] controlador: Emparejamiento ID-0235 vs ID-4611: diferencia 24.70 -> alta desviación: el héroe es mucho más poderoso
+2026-10-10 17:07:29,202 [INFO] controlador: Emparejamiento ID-5900 vs ID-7990: diferencia 4.05 -> equilibrado
+2026-10-10 17:07:32,246 [INFO] __main__: Programa finalizado
+2026-10-10 17:17:55,378 [INFO] __main__: Programa iniciado
+2026-10-10 17:17:55,378 [INFO] controlador: Controlador iniciado
+2026-10-10 17:17:55,378 [INFO] controlador: Creado heroe ID-8569 (puntuación 59.20)
+2026-10-10 17:17:55,378 [INFO] controlador: Creado villano ID-4552 (puntuación 41.00)
+2026-10-10 17:17:55,378 [INFO] controlador: Creado heroe ID-4072 (puntuación 35.00)
+2026-10-10 17:17:55,379 [INFO] controlador: Creado heroe ID-8834 (puntuación 61.20)
+2026-10-10 17:17:55,379 [INFO] controlador: Creado villano ID-7574 (puntuación 38.00)
+2026-10-10 17:17:55,379 [INFO] controlador: Creado heroe ID-9917 (puntuación 48.80)
+2026-10-10 17:17:55,379 [INFO] controlador: Creado heroe ID-5493 (puntuación 36.20)
+2026-10-10 17:17:55,379 [INFO] controlador: Creado heroe ID-0194 (puntuación 60.20)
+2026-10-10 17:17:55,379 [INFO] controlador: Creado villano ID-0551 (puntuación 65.50)
+2026-10-10 17:17:55,379 [INFO] controlador: Creado heroe ID-4001 (puntuación 54.80)
+2026-10-10 17:18:01,429 [INFO] controlador: Creado heroe ID-2006 (puntuación 48.20)
+2026-10-10 17:18:05,149 [INFO] controlador: Creado villano ID-3375 (puntuación 31.75)
+2026-10-10 17:18:09,732 [INFO] controlador: Emparejamiento ID-8569 vs ID-0551: diferencia 6.30 -> equilibrado
+2026-10-10 17:18:12,336 [INFO] controlador: Emparejamiento ID-8834 vs ID-7574: diferencia 23.20 -> alta desviación: el héroe es mucho más poderoso
+2026-10-10 17:18:13,207 [INFO] controlador: Emparejamiento ID-8569 vs ID-0551: diferencia 6.30 -> equilibrado
+2026-10-10 17:18:13,897 [INFO] controlador: Emparejamiento ID-8834 vs ID-0551: diferencia 4.30 -> equilibrado
+2026-10-10 17:18:14,603 [INFO] controlador: Emparejamiento ID-4001 vs ID-4552: diferencia 13.80 -> equilibrado
+2026-10-10 17:18:15,277 [INFO] controlador: Emparejamiento ID-2006 vs ID-0551: diferencia 17.30 -> alta desviación: el villano es mucho más poderoso
+2026-10-10 17:18:17,868 [INFO] __main__: Programa finalizado
+2026-10-11 18:42:17,073 [INFO] __main__: Programa iniciado
+2026-10-11 18:42:17,074 [INFO] controlador: Controlador iniciado
+2026-10-11 18:42:17,075 [INFO] controlador: Creado heroe ID-6407 (puntuación 57.00)
+2026-10-11 18:42:17,075 [INFO] controlador: Creado heroe ID-8183 (puntuación 59.00)
+2026-10-11 18:42:17,075 [INFO] controlador: Creado heroe ID-7370 (puntuación 55.00)
+2026-10-11 18:42:17,075 [INFO] controlador: Creado heroe ID-1624 (puntuación 61.40)
+2026-10-11 18:42:17,075 [INFO] controlador: Creado villano ID-1192 (puntuación 66.00)
+2026-10-11 18:42:17,075 [INFO] controlador: Creado villano ID-6391 (puntuación 55.00)
+2026-10-11 18:42:17,076 [INFO] controlador: Creado villano ID-3543 (puntuación 55.00)
+2026-10-11 18:42:17,076 [INFO] controlador: Creado heroe ID-8335 (puntuación 58.00)
+2026-10-11 18:42:17,076 [INFO] controlador: Creado villano ID-5300 (puntuación 60.50)
+2026-10-11 18:42:17,076 [INFO] controlador: Creado heroe ID-4408 (puntuación 34.40)
+2026-10-11 18:42:22,243 [INFO] controlador: Emparejamiento ID-6407 vs ID-1192: diferencia 9.00 -> equilibrado
+2026-10-11 18:42:38,987 [INFO] controlador: Creado heroe ID-1460 (puntuación 50.40)
+2026-10-11 18:42:39,920 [INFO] controlador: Creado villano ID-0024 (puntuación 57.00)
+2026-10-11 18:42:43,175 [INFO] controlador: Emparejamiento ID-7370 vs ID-0024: diferencia 2.00 -> equilibrado
+2026-10-11 18:42:45,016 [INFO] controlador: Emparejamiento ID-1460 vs ID-6391: diferencia 4.60 -> equilibrado
+2026-10-11 18:42:46,466 [INFO] controlador: Emparejamiento ID-4408 vs ID-1192: diferencia 31.60 -> alta desviación: el villano es mucho más poderoso
+2026-10-11 18:42:47,333 [INFO] controlador: Emparejamiento ID-4408 vs ID-5300: diferencia 26.10 -> alta desviación: el villano es mucho más poderoso
+2026-10-11 18:42:48,315 [INFO] controlador: Emparejamiento ID-8183 vs ID-1192: diferencia 7.00 -> equilibrado
+2026-10-11 18:42:54,215 [INFO] __main__: Programa finalizado
